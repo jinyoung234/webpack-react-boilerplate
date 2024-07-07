@@ -5,7 +5,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./src/index.tsx",
+  entry: "./src/main.tsx",
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
@@ -15,6 +15,7 @@ module.exports = {
     extensions: [".ts", ".tsx", ".js", ".jsx"],
     alias: {
       "@components": path.resolve(__dirname, "src/components/"),
+      "@styles": path.resolve(__dirname, "src/styles/"),
     },
   },
   module: {

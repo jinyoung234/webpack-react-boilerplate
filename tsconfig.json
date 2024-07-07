@@ -17,7 +17,8 @@
     "noEmit": false,
     "baseUrl": "./src",
     "paths": {
-      "@components/*": ["components/*"]
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"]
     },
     "outDir": "./dist"
   },
